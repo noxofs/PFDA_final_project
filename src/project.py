@@ -1,6 +1,11 @@
 import pygame
 
 
+class Swatch():
+
+    def __init__(self):
+        print("placeholder")
+
 def main():
     pygame.init()
     screen = pygame.display.set_mode((1280, 720))
