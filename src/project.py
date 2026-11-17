@@ -3,8 +3,9 @@ import pygame
 
 class Swatch():
 
-    def __init__(self):
-        print("placeholder")
+    def __init__(self, color):
+        self.color = color
+
 
 def main():
     pygame.init()
